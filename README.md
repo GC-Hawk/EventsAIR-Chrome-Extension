@@ -45,9 +45,7 @@ The developer does not take any responsibility or liability for the use of this 
 For any questions, feedback, or support, please reach out to:
 
 - **Name**: Håkon Jevnesveen
-- **Email**:
-  - **Private**: [hakonjj@gmail.com](mailto:hakonjj@gmail.com)
-  - **Work**: [hj@gyro.no](mailto:hj@gyro.no) (Gyro Conference AS, Norway)
+- **Email**: [hj@gyro.no](mailto:hj@gyro.no) (Gyro Conference AS, Norway)
 - **Website/CV**: [https://jevnesveen.no/en/cv/](https://jevnesveen.no/en/cv/)
 
 ## License
