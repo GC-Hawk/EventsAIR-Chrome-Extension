@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Gelion Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gelion Regular'), url('fonts/Gelion_Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Gelion Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gelion Bold'), url('fonts/Gelion_Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Gelion Light Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gelion Light Italic'), url('fonts/Gelion_Light_Italic.woff') format('woff');
+}
+
+body {
+    font-family: 'Gelion Regular', sans-serif;
+    color: #040742;
+    padding: 10px;
+    width: 350px;
+    background-image: url(/images/bg.png);
+    background-position: right center;
+    background-size: 150% 150%;
+}
+
+.header img {
+    width: 40px;
+    height: 40px;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Gelion Bold', sans-serif;
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+a {
+    color: #642be1;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#domainMessage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+#domainMessageIcon {
+    height: 15px;
+    width: 15px;
+    padding: 0 3px;
+}
+
+#domainMessageInner {
+    font-family: 'Gelion Light Italic', sans-serif;
+    color: #642be1;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    column-gap: 1em;
+}
+
+#clearDataBtn {
+    background: #642be1;
+    border: 1px solid #642be1;
+    border-radius: 5px;
+    color: #ffffff;
+    transition: .2s all;
+    font-family: 'Gelion Bold', sans-serif;
+    font-size: 14px;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+#clearDataBtn:hover {
+    background: #05073f;
+}
+
+#clearDataBtn:disabled,
+#clearDataBtn[disabled] {
+    background: #d3c1fa !important;
+    color: #040742 !important;
+    border-color: #d3c1fa !important;
+    text-decoration: line-through;
+    cursor: not-allowed;
+}
